@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           Shudhanshu Ranjan
         </h1>
         <div className="space-y-4">
-          <p className="text-xl md:text-2xl text-gray-200">New York City metropolitan area</p>
+          <p className="text-xl md:text-2xl text-gray-200">New York City Metropolitan Area</p>
           <p className="text-xl md:text-2xl text-gray-200">Data Scientist & Machine Learning Engineer with GCP Experience</p>
         </div>
         <p className="text-lg md:text-xl mt-8 mb-12 text-gray-300 max-w-3xl mx-auto">
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
             <Mail size={28} />
           </a>
           <a 
-            href="https://x.com/sudoscout" 
+            href="https://x.com/sudoxsudo" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-gray-300 hover:text-blue-400 transition duration-300"
