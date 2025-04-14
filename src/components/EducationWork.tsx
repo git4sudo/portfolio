@@ -60,7 +60,7 @@ const EducationWork: React.FC = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
   <h4 className="text-xl font-semibold">Software Engineer – NeuraNudge Project</h4>
   <p className="text-gray-600">Neurability Foundation, Inc.</p>
-  <p className="text-gray-500">December 2024 – Present | Remote</p>
+  <p className="text-gray-500">December 2024 – Present | Remote, US</p>
   <p className="text-gray-600 mt-2">
     Contributing to the development of an AI-based productivity platform focused on personalized behavior support and digital wellness. Work spans AI system design, cloud-based deployment, and cognitive task optimization.
   </p>
@@ -77,7 +77,7 @@ const EducationWork: React.FC = () => {
 <div className="bg-gray-100 p-6 rounded-lg">
   <h4 className="text-xl font-semibold">Machine Learning Engineer – MedPal AI Project</h4>
   <p className="text-gray-600">Health Innovators</p>
-  <p className="text-gray-500">December 2024 – Present | Remote</p>
+  <p className="text-gray-500">December 2024 – Present | Remote, US</p>
   <p className="text-gray-600 mt-2">
     Assisting in the creation of intelligent, AI-driven tools that improve patient-provider interaction and clinical workflow automation. Work includes research and implementation of medical NLP and visual AI systems.
   </p>
