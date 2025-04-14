@@ -58,6 +58,40 @@ const EducationWork: React.FC = () => {
             </h3>
             <div className="space-y-6">
               <div className="bg-gray-100 p-6 rounded-lg">
+  <h4 className="text-xl font-semibold">Software Engineer – NeuraNudge Project</h4>
+  <p className="text-gray-600">Neurability Foundation, Inc.</p>
+  <p className="text-gray-500">December 2024 – Present | Remote</p>
+  <p className="text-gray-600 mt-2">
+    Contributing to the development of an AI-based productivity platform focused on personalized behavior support and digital wellness. Work spans AI system design, cloud-based deployment, and cognitive task optimization.
+  </p>
+  <div className="mt-3">
+    <p className="text-gray-700 font-medium">Focus Areas:</p>
+    <ul className="list-disc list-inside mt-1 text-gray-600">
+      <li>Integrating advanced language models into scalable backend infrastructure</li>
+      <li>Building intelligent features that adapt to user needs in real time</li>
+      <li>Ensuring system performance, reliability, and personalization at scale</li>
+    </ul>
+  </div>
+</div>
+
+<div className="bg-gray-100 p-6 rounded-lg">
+  <h4 className="text-xl font-semibold">Machine Learning Engineer – MedPal AI Project</h4>
+  <p className="text-gray-600">Health Innovators</p>
+  <p className="text-gray-500">December 2024 – Present | Remote</p>
+  <p className="text-gray-600 mt-2">
+    Assisting in the creation of intelligent, AI-driven tools that improve patient-provider interaction and clinical workflow automation. Work includes research and implementation of medical NLP and visual AI systems.
+  </p>
+  <div className="mt-3">
+    <p className="text-gray-700 font-medium">Focus Areas:</p>
+    <ul className="list-disc list-inside mt-1 text-gray-600">
+      <li>Designing ML models that interpret medical dialogues and clinical texts</li>
+      <li>Developing multi-modal systems for medical understanding and summarization</li>
+      <li>Collaborating on foundational research to improve AI reliability in healthcare</li>
+              </ul>
+              </div>
+              </div>
+
+              <div className="bg-gray-100 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold">Graduate Research Assistant</h4>
                 <p className="text-gray-600">Stevens Institute of Technology</p>
                 <p className="text-gray-500">January 2024 – Present | Hoboken, New Jersey</p>
