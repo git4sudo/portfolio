@@ -5,9 +5,9 @@ const Hero: React.FC = () => {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2813&q=80" 
-          alt="Cosmic background with stars and nebula" 
+               <img 
+          src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2811&q=80" 
+          alt="NASA nebula background" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
