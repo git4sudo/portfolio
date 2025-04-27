@@ -1,11 +1,11 @@
 import React from 'react';
-import { Briefcase, GraduationCap } from 'lucide-react';
+import { Briefcase, GraduationCap, Award } from 'lucide-react';
 
 const EducationWork: React.FC = () => {
   return (
     <section id="education-work" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-12 text-center">Education & Work Experience</h2>
+        <h2 className="text-3xl font-bold mb-12 text-center">Education & Experience</h2>
         
         <div className="grid md:grid-cols-2 gap-8">
           <div>
@@ -49,6 +49,36 @@ const EducationWork: React.FC = () => {
                   </div>
                 </div>
               </div>
+
+              <h3 className="text-2xl font-semibold mb-6 flex items-center mt-8">
+                <Award className="mr-2" /> Activities
+              </h3>
+              <div className="space-y-6">
+                <div className="bg-gray-100 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold">Co-Founder & Student Coordinator, Crescendo Developers Club</h4>
+                  <p className="text-gray-600">Presidency University</p>
+                  <p className="text-gray-500">June 2020 – June 2022 | Bangalore, IN</p>
+                  <ul className="list-disc list-inside mt-3 text-gray-600 space-y-2">
+                    <li>Co-founded one of Presidency University's first tech & research clubs with the mission to strengthen and promote Computer Science, research, academia, and development on campus</li>
+                    <li>Grew an active membership of 250+ students through targeted outreach, peer-to-peer mentoring, and on-campus promotions</li>
+                    <li>Organized 4 hands-on hackathons, providing practical coding challenges and team-based problem solving</li>
+                    <li>Hosted 8 expert-led webinars covering core CS fundamentals and cutting-edge research topics</li>
+                    <li>Positioned Crescendo as a "valued treasure" for CS enthusiasts—fostering collaboration, knowledge sharing, and a culture of continuous learning</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-100 p-6 rounded-lg">
+                  <h4 className="text-xl font-semibold">Semi-Finalist (Top 2 %), e-Yantra National Robotics Competition</h4>
+                  <p className="text-gray-500">September 2020 – March 2021 | Bangalore, IN</p>
+                  <ul className="list-disc list-inside mt-3 text-gray-600 space-y-2">
+                    <li>Chosen from 10,400+ student teams to reach the top 55 (Top 2%) with our "Vargi Bots" warehouse-automation prototype</li>
+                    <li>Architected and simulated a dual-UR5 pick-and-place workflow in ROS & Gazebo to automate order dispatch and priority-based bin sorting</li>
+                    <li>Developed pkg_task5 ROS package using MoveIt! APIs and OpenCV for real-time shelf scanning, inverse-kinematics control, and conveyor tracking</li>
+                    <li>Built pkg_ros_iot_bridge to push live inventory updates to Google Sheets/website and trigger buyer email alerts via MQTT & Google Apps Script</li>
+                    <li>Co-authored comprehensive documentation detailing system architecture, package APIs, and Gazebo world configurations for the competition submission</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -58,7 +88,8 @@ const EducationWork: React.FC = () => {
             </h3>
             <div className="space-y-6">
               <div className="bg-gray-100 p-6 rounded-lg">
-  <h4 className="text-xl font-semibold">Software Engineer – NeuraNudge Project</h4>
+			  
+			  <h4 className="text-xl font-semibold">Software Engineer – NeuraNudge Project</h4>
   <p className="text-gray-600">Neurability Foundation, Inc.</p>
   <p className="text-gray-500">December 2024 – Present | Remote, US</p>
   <p className="text-gray-600 mt-2">
