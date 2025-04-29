@@ -15,7 +15,7 @@ const EducationWork: React.FC = () => {
             <div className="space-y-6">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold">Master of Science, Computer Science</h4>
-                <p className="text-gray-600">Stevens Institute of Technology</p>
+                <p className="text-gray-600">Stevens Institute of Technology, Hoboken, New Jersey, US</p>
                 <p className="text-gray-500">September 2022 - May 2024</p>
                 <p className="text-gray-700 mt-2 font-medium">Coursework:</p>
                 <p className="text-gray-600">Algorithmic Complexity, Numerical Linear Algebra for Big Data, Natural Language Processing, Computer Vision, Applied Statistics with Application in Finance, Reinforcement Learning and Sequential Decision Making</p>
@@ -23,7 +23,7 @@ const EducationWork: React.FC = () => {
 
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold">Graduate Certificate, Machine Learning</h4>
-                <p className="text-gray-600">Stevens Institute of Technology</p>
+                <p className="text-gray-600">Stevens Institute of Technology, Hoboken, New Jersey, US</p>
                 <p className="text-gray-500">November 2023 - May 2024</p>
                 <p className="text-gray-700 mt-2 font-medium">Coursework:</p>
                 <p className="text-gray-600">Artificial Intelligence, Machine Learning, Statistical Machine Learning, Deep Learning</p>
@@ -31,7 +31,7 @@ const EducationWork: React.FC = () => {
 
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold">Bachelor of Technology, Computer Science and Engineering</h4>
-                <p className="text-gray-600">Presidency University Bangalore</p>
+                <p className="text-gray-600">Presidency University, Bengaluru, Karnataka, India</p>
                 <p className="text-gray-500">August 2018 - July 2022</p>
                 <p className="text-gray-700 mt-2 font-medium">Coursework:</p>
                 <div className="space-y-2 mt-2">
@@ -57,7 +57,7 @@ const EducationWork: React.FC = () => {
                 <div className="bg-gray-100 p-6 rounded-lg">
                   <h4 className="text-xl font-semibold">Co-Founder & Student Coordinator, Crescendo Developers Club</h4>
                   <p className="text-gray-600">Presidency University</p>
-                  <p className="text-gray-500">June 2020 – June 2022 | Bangalore, IN</p>
+                  <p className="text-gray-500">June 2020 – June 2022 | Bengaluru, Karnataka, India</p>
                   <ul className="list-disc list-inside mt-3 text-gray-600 space-y-2">
                     <li>Co-founded one of Presidency University's first tech & research clubs with the mission to strengthen and promote Computer Science, research, academia, and development on campus</li>
                     <li>Grew an active membership of 250+ students through targeted outreach, peer-to-peer mentoring, and on-campus promotions</li>
@@ -69,7 +69,7 @@ const EducationWork: React.FC = () => {
 
                 <div className="bg-gray-100 p-6 rounded-lg">
                   <h4 className="text-xl font-semibold">Semi-Finalist (Top 2 %), e-Yantra National Robotics Competition</h4>
-                  <p className="text-gray-500">September 2020 – March 2021 | Bangalore, IN</p>
+                  <p className="text-gray-500">September 2020 – March 2021 | Bengaluru, Karnataka, India</p>
                   <ul className="list-disc list-inside mt-3 text-gray-600 space-y-2">
                     <li>Chosen from 10,400+ student teams to reach the top 55 (Top 2%) with our "Vargi Bots" warehouse-automation prototype</li>
                     <li>Architected and simulated a dual-UR5 pick-and-place workflow in ROS & Gazebo to automate order dispatch and priority-based bin sorting</li>
@@ -125,7 +125,7 @@ const EducationWork: React.FC = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold">Graduate Research Assistant</h4>
                 <p className="text-gray-600">Stevens Institute of Technology</p>
-                <p className="text-gray-500">January 2024 – Present | Hoboken, New Jersey</p>
+                <p className="text-gray-500">January 2024 – Present | Hoboken, New Jersey, US</p>
                 <p className="text-gray-600 mt-2">Working under the supervision of Professor Jia Xu, contributing to groundbreaking research in Natural Language Processing (NLP).</p>
                 <div className="mt-3">
                   <p className="text-gray-700 font-medium">Responsibilities:</p>
